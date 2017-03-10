@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Let's have fun!</h1>
+        <button id="btn1">#btn1</button>
+        <button id="btn2">#btn2</button>
+        <button id="btn3">#btn3</button>
+        <button id="btn4">#btn4</button>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <div id="panel1" style="display:none" class="panel panel-primary">
+            <div class="panel-heading">
+              #panel1
+            </div>
+            <div class="panel-body">
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <div id="panel2" style="display:none" class="panel panel-primary">
+            <div class="panel-heading">
+              #panel2
+            </div>
+            <div class="panel-body">
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <div id="panel3" style="display:none" class="panel panel-primary">
+            <div class="panel-heading">
+              #panel3
+            </div>
+            <div class="panel-body">
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <div id="panel4" style="display:none" class="panel panel-primary">
+            <div class="panel-heading">
+              #panel4
+            </div>
+            <div class="panel-body">
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+
+  <script>
+    $(function() {
+
+
+//       $('#btn1').html('my button');
+//       $('#panel1').html('my panel <strong>my bold</strong>');
+
+//       $('#panel1').on('click', function() {
+//         $('#panel1').slideToggle(200);
+//       });
+
+//       $('#panel1').on('click', function() {
+//         $('#panel1').fadeToggle(200);
+//       });
+
+      // EVENTO DE CLICK
+//       $('#btn1').on('click', function() {
+//         $('#panel1').fadeToggle(200);
+//       });
+// 
+//       $('#btn2').on('click', function() {
+//         $('#panel2').fadeToggle(200);
+//       });
+// 
+//       $('#btn3').on('click', function() {
+//         $('#panel3').fadeToggle(200);
+//       });
+// 
+//       $('#btn4').on('click', function() {
+//         $('#panel4').fadeToggle(200);
+//       });
+
+
+      // EVENTO DE CLICK
+//      $('#btn1').on('mouseover', function() {
+//        $('#panel1').fadeToggle(200);
+//      });
+//
+//      $('#btn2').on('mouseover', function() {
+//        $('#panel2').fadeToggle(200);
+//      });
+//
+//      $('#btn3').on('mouseover', function() {
+//        $('#panel3').fadeToggle(200);
+//      });
+//
+//      $('#btn4').on('mouseover', function() {
+//        $('#panel4').fadeToggle(200);
+//      });
+
+
+//       $('#btn1').on('mouseover', function() {
+//         $('#panel1').fadeOut(200);
+//       });
+// 
+//       $('#btn2').on('mouseover', function() {
+//         $('#panel2').fadeOut(200);
+//       });
+// 
+//       $('#btn3').on('mouseover', function() {
+//         $('#panel3').fadeOut(200);
+//       });
+// 
+//       $('#btn4').on('mouseover', function() {
+//         $('#panel4').fadeOut(200);
+//       });
+// 
+// 
+// 
+// 
+//       // EVENTO DE FADEIN
+//       $('#btn1').on('click', function() {
+//         $('#panel1').fadeIn(200);
+//       });
+// 
+//       $('#btn2').on('click', function() {
+//         $('#panel2').fadeIn(200);
+//       });
+// 
+//       $('#btn3').on('click', function() {
+//         $('#panel3').fadeIn(200);
+//       });
+// 
+//       $('#btn4').on('click', function() {
+//         $('#panel4').fadeIn(200);
+//       });
+
+       $('#btn1').on('click', function() {
+         $('#panel1').toggle();
+       });
+ 
+       $('#btn2').on('click', function() {
+         $('#panel2').toggle();
+       });
+ 
+       $('#btn3').on('click', function() {
+         $('#panel3').slideToggle();
+       });
+ 
+       $('#btn4').on('click', function() {
+         $('#panel4').slideToggle();
+       });
+
+    });
+  </script>
+
+  </body>
+</html>
